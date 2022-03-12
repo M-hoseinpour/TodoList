@@ -24,7 +24,7 @@ export function Todo() {
 
   return (
     <div className="App flex items-center justify-center min-h-screen p-5 w-full bg-slate-800">
-      <div className="flex justify-center align-center w-2/4">
+      <div className="flex justify-center align-center md:w-2/4">
         <div className="shadow-lg p-4 bg-stone-300 rounded w-full">
           <ul className="space-y-2 mb-4">
             {TodoList.map((todo) => (
